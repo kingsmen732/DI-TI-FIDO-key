@@ -1,0 +1,11 @@
+
+
+#ifndef __VERSION_H_
+#define __VERSION_H_
+
+#define PICO_FIDO_VERSION 0x0602
+
+#define PICO_FIDO_VERSION_MAJOR ((PICO_FIDO_VERSION >> 8) & 0xff)
+#define PICO_FIDO_VERSION_MINOR (PICO_FIDO_VERSION & 0xff)
+
+#endif
